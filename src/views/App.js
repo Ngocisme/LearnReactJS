@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.scss';
 import MyComponet from './Example/MyComponent';
+
 const App = () => {
   return (
     <div className="App">
@@ -10,6 +11,7 @@ const App = () => {
           Edit reactjs with MrBlowJob
         </p>
         <MyComponet />
+
       </header>
     </div>
   );

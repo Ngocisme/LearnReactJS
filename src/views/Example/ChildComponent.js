@@ -16,11 +16,10 @@ class ChildComponent extends React.Component {
         let { showJobs } = this.state;
         return (
             <>
-                {showJobs === false && <div>
+                {showJobs === false ? <div>
                     <button onClick={() => this.handleShowHide()}>Show</button>
-                </div>}
-
-                {showJobs &&
+                </div>
+                    :
                     <>
                         <div className="arrJobs-List">
                             {
